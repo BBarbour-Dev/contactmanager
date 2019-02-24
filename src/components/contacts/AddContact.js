@@ -3,7 +3,7 @@ import { Consumer } from "../../context";
 import TextInputGroup from "../layout/TextInputGroup";
 import axios from "axios";
 
-export default class AddContact extends Component {
+class AddContact extends Component {
   state = {
     name: "",
     email: "",
@@ -108,3 +108,5 @@ export default class AddContact extends Component {
     );
   }
 }
+
+export default AddContact;
